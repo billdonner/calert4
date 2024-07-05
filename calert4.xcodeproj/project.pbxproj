@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		884548682C38670F009A725F /* calert4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884548672C38670F009A725F /* calert4App.swift */; };
-		8845486A2C38670F009A725F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884548692C38670F009A725F /* ContentView.swift */; };
+		8845486A2C38670F009A725F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884548692C38670F009A725F /* MainView.swift */; };
 		8845486C2C386711009A725F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8845486B2C386711009A725F /* Assets.xcassets */; };
 		8845486F2C386711009A725F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8845486E2C386711009A725F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		884548642C38670F009A725F /* calert4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calert4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		884548672C38670F009A725F /* calert4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calert4App.swift; sourceTree = "<group>"; };
-		884548692C38670F009A725F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		884548692C38670F009A725F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8845486B2C386711009A725F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8845486E2C386711009A725F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +49,7 @@
 		884548662C38670F009A725F /* calert4 */ = {
 			isa = PBXGroup;
 			children = (
-				884548672C38670F009A725F /* calert4App.swift */,
-				884548692C38670F009A725F /* ContentView.swift */,
+				884548692C38670F009A725F /* MainView.swift */,
 				8845486B2C386711009A725F /* Assets.xcassets */,
 				8845486D2C386711009A725F /* Preview Content */,
 			);
@@ -137,8 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8845486A2C38670F009A725F /* ContentView.swift in Sources */,
-				884548682C38670F009A725F /* calert4App.swift in Sources */,
+				8845486A2C38670F009A725F /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
